@@ -1,3 +1,31 @@
+$colore-testo: blue;
+$colore-sfondo: yellow;
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+
+header,
+footer {
+  height: 100px;
+  background-color: $colore-sfondo;
+}
+
+main{
+    height: calc( 100vh - 200px);
+}
+
+h1{
+    color: $colore-testo;
+}
+
 button{
-    background-color: red;
+    background-color: $colore-testo;
 }

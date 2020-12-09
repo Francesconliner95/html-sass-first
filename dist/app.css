@@ -1,4 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+}
+
+header,
+footer {
+  height: 100px;
+  background-color: yellow;
+}
+
+main {
+  height: calc( 100vh - 200px);
+}
+
+h1 {
+  color: blue;
+}
+
 button {
-  background-color: red;
+  background-color: blue;
 }
 
